@@ -27,13 +27,9 @@ export default function Home() {
     <main className="p-12">
       <Navbar />
       <section className='py-12 flex flex-col items-center text-center gap-8'>
-        <h1 className='text-4xl font-bold'>Aku mau Bikin Homepage</h1>
-        <p className='text-4xl text-muted-foreground'>Aku adalah seorang sigma yang lahir di makassar. Free fire max makin HD efek senjata dan suara makin hebar</p>
+        <h1 className='text-4xl font-bold'>Homepage</h1>
+        <p className='text-4xl text-muted-foreground'>-</p>
       </section>
-      <div className='flex gap-8 items-center justify-center'>
-          <Button variant={'destructive'}>Ayam</Button>
-          <Button>Sapi</Button>
-      </div>
     </main>
   )
 }
